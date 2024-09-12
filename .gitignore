@@ -26,3 +26,7 @@ dist-ssr
 .history
 
 *.tsbuildinfo
+
+# 环境变量文件
+.env.local
+.env.*.local

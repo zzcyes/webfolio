@@ -1,0 +1,1685 @@
+{
+    "data": {
+        "viewer": {
+            "starredRepositories": {
+                "nodes": [
+                    {
+                        "name": "developer-roadmap",
+                        "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+                        "url": "https://github.com/kamranahmedse/developer-roadmap",
+                        "homepageUrl": "https://roadmap.sh",
+                        "forkCount": 38517,
+                        "stargazerCount": 291047,
+                        "owner": {
+                            "login": "kamranahmedse",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/4921183?u=d6ed3573fc67b699e0c3bc2c7e1fb82c98c40dec&v=4"
+                        }
+                    },
+                    {
+                        "name": "Blog",
+                        "description": "冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。",
+                        "url": "https://github.com/mqyqingfeng/Blog",
+                        "homepageUrl": "",
+                        "forkCount": 4704,
+                        "stargazerCount": 30667,
+                        "owner": {
+                            "login": "mqyqingfeng",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/11458263?u=8abd594f236f381da9cbe70bade832663ecb4bd0&v=4"
+                        }
+                    },
+                    {
+                        "name": "document-library",
+                        "description": "jsliang 的文档库. 里面包含了个人撰写的所有前端文章，例如 Vue、React,、ECharts、微信小程序、算法、数据结构等……",
+                        "url": "https://github.com/LiangJunrong/document-library",
+                        "homepageUrl": "https://juejin.cn/user/3403743728515246",
+                        "forkCount": 620,
+                        "stargazerCount": 3893,
+                        "owner": {
+                            "login": "LiangJunrong",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/22924993?u=ac5a9fd11308dac06109ddcdabcc8c77106bb5f0&v=4"
+                        }
+                    },
+                    {
+                        "name": "leetcode",
+                        "description": "LeetCode Solutions: A Record of My Problem Solving Journey.( leetcode题解，记录自己的leetcode解题之路。)",
+                        "url": "https://github.com/azl397985856/leetcode",
+                        "homepageUrl": "https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/",
+                        "forkCount": 9451,
+                        "stargazerCount": 54430,
+                        "owner": {
+                            "login": "azl397985856",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/12479470?u=442571e44cbd0b67e3503e9551d4445c78f593f8&v=4"
+                        }
+                    },
+                    {
+                        "name": "quiz",
+                        "description": "小测答题收集区",
+                        "url": "https://github.com/zhangxinxu/quiz",
+                        "homepageUrl": null,
+                        "forkCount": 43,
+                        "stargazerCount": 535,
+                        "owner": {
+                            "login": "zhangxinxu",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/496048?v=4"
+                        }
+                    },
+                    {
+                        "name": "deep-into-node",
+                        "description": "In-depth understanding of Node.js: Core Ideas and Source Code Analysis",
+                        "url": "https://github.com/yjhjstz/deep-into-node",
+                        "homepageUrl": "https://jianghua-yjhs-organization.gitbook.io/in-depth-understanding-of-node.js-core-ideas-and/",
+                        "forkCount": 624,
+                        "stargazerCount": 4355,
+                        "owner": {
+                            "login": "yjhjstz",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/3832082?u=f7e63622093fd03194412b7269cdbdf05f67205e&v=4"
+                        }
+                    },
+                    {
+                        "name": "learnVue",
+                        "description": ":octocat:Vue.js 源码解析",
+                        "url": "https://github.com/answershuto/learnVue",
+                        "homepageUrl": "https://github.com/answershuto/learnVue",
+                        "forkCount": 2576,
+                        "stargazerCount": 12642,
+                        "owner": {
+                            "login": "answershuto",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/17812136?u=a971fad33a5fa6a69e9ad1cc8671fbab3b707c45&v=4"
+                        }
+                    },
+                    {
+                        "name": "javascript",
+                        "description": "JavaScript Style Guide",
+                        "url": "https://github.com/airbnb/javascript",
+                        "homepageUrl": null,
+                        "forkCount": 26434,
+                        "stargazerCount": 144579,
+                        "owner": {
+                            "login": "airbnb",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/698437?v=4"
+                        }
+                    },
+                    {
+                        "name": "awesome-coding-js",
+                        "description": "用JavaScript实现的算法和数据结构，附详细解释和刷题指南",
+                        "url": "https://github.com/ConardLi/awesome-coding-js",
+                        "homepageUrl": "",
+                        "forkCount": 510,
+                        "stargazerCount": 3249,
+                        "owner": {
+                            "login": "ConardLi",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/30708545?u=0e0b8f9bd53e3e5b629dba5178f1c05d060a7b7d&v=4"
+                        }
+                    },
+                    {
+                        "name": "free-programming-books-zh_CN",
+                        "description": ":books: 免费的计算机编程类中文书籍，欢迎投稿",
+                        "url": "https://github.com/justjavac/free-programming-books-zh_CN",
+                        "homepageUrl": "http://weibo.com/justjavac",
+                        "forkCount": 28199,
+                        "stargazerCount": 111111,
+                        "owner": {
+                            "login": "justjavac",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/359395?u=bb50dde6882b70d87c0b074e1d4986762cf294ad&v=4"
+                        }
+                    },
+                    {
+                        "name": "DDFE-blog",
+                        "description": ":clap: welcome to DDFE's blog",
+                        "url": "https://github.com/DDFE/DDFE-blog",
+                        "homepageUrl": "",
+                        "forkCount": 472,
+                        "stargazerCount": 3974,
+                        "owner": {
+                            "login": "DDFE",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/13447209?v=4"
+                        }
+                    },
+                    {
+                        "name": "js-regex-mini-book",
+                        "description": null,
+                        "url": "https://github.com/qdlaoyao/js-regex-mini-book",
+                        "homepageUrl": null,
+                        "forkCount": 159,
+                        "stargazerCount": 1450,
+                        "owner": {
+                            "login": "qdlaoyao",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/29795825?u=d2fe240c083e0d2e8fce4f333b1db6b76991b91d&v=4"
+                        }
+                    },
+                    {
+                        "name": "the-super-tiny-compiler",
+                        "description": ":snowman: Possibly the smallest compiler ever",
+                        "url": "https://github.com/jamiebuilds/the-super-tiny-compiler",
+                        "homepageUrl": "",
+                        "forkCount": 2849,
+                        "stargazerCount": 27821,
+                        "owner": {
+                            "login": "jamiebuilds",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/952783?u=2fc90fed173d5ef5e780f3b4417536a808601ef8&v=4"
+                        }
+                    },
+                    {
+                        "name": "Learning-JavaScript-Data-Structures-and-Algorithms-Third-Edition",
+                        "description": "Learning JavaScript Data Structures and Algorithms (Third Edition), published by Packt",
+                        "url": "https://github.com/PacktPublishing/Learning-JavaScript-Data-Structures-and-Algorithms-Third-Edition",
+                        "homepageUrl": null,
+                        "forkCount": 428,
+                        "stargazerCount": 1051,
+                        "owner": {
+                            "login": "PacktPublishing",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/10974906?v=4"
+                        }
+                    },
+                    {
+                        "name": "javascript-style-guide",
+                        "description": "Airbnb JavaScript Style Guide 中文版",
+                        "url": "https://github.com/sivan/javascript-style-guide",
+                        "homepageUrl": null,
+                        "forkCount": 481,
+                        "stargazerCount": 2005,
+                        "owner": {
+                            "login": "sivan",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/393328?u=ab0282d033ab18fad7f709b2d45c29ce0e06d235&v=4"
+                        }
+                    },
+                    {
+                        "name": "note",
+                        "description": "前端学习资料合集（包含深入解读JS系列，React、Vue源码分析，前端算法解析，收集大厂面经，前端工程化最佳实践，经典图书分享，推荐好用的前端工具等等，内容不定期更新中。一边记录，一边学习，一边分享）",
+                        "url": "https://github.com/fyuanfen/note",
+                        "homepageUrl": "http://www.zyy1217.com",
+                        "forkCount": 138,
+                        "stargazerCount": 670,
+                        "owner": {
+                            "login": "fyuanfen",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/18482512?u=e1c2e26dfc37d2d6e9d1021e49816e0fb23381e8&v=4"
+                        }
+                    },
+                    {
+                        "name": "typescript-book-chinese",
+                        "description": "TypeScript Deep Dive 中文版 ",
+                        "url": "https://github.com/jkchao/typescript-book-chinese",
+                        "homepageUrl": "https://jkchao.github.io/typescript-book-chinese/",
+                        "forkCount": 674,
+                        "stargazerCount": 6505,
+                        "owner": {
+                            "login": "jkchao",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/22933931?u=a784a0975ebeedca9431919654848d2df93470c6&v=4"
+                        }
+                    },
+                    {
+                        "name": "vue-family-mindmap",
+                        "description": "用一张思维导图总结了 Vue | Vue-Router | Vuex 源码与架构要点。",
+                        "url": "https://github.com/biaochenxuying/vue-family-mindmap",
+                        "homepageUrl": "",
+                        "forkCount": 177,
+                        "stargazerCount": 766,
+                        "owner": {
+                            "login": "biaochenxuying",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/24362914?u=84451d649886f7cddc9fd258e5116ea1596e61b7&v=4"
+                        }
+                    },
+                    {
+                        "name": "fucking-algorithm",
+                        "description": "刷算法全靠套路，认准 labuladong 就够了！English version supported! Crack LeetCode, not only how, but also why. ",
+                        "url": "https://github.com/labuladong/fucking-algorithm",
+                        "homepageUrl": "https://labuladong.github.io/algo/",
+                        "forkCount": 23184,
+                        "stargazerCount": 124980,
+                        "owner": {
+                            "login": "labuladong",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/37220920?u=979c1564a86a586d7e44c457f0d776408ff62c48&v=4"
+                        }
+                    },
+                    {
+                        "name": "Peter-",
+                        "description": "Peter的手写源码集合",
+                        "url": "https://github.com/JinJieTan/Peter-",
+                        "homepageUrl": null,
+                        "forkCount": 85,
+                        "stargazerCount": 446,
+                        "owner": {
+                            "login": "JinJieTan",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/47209029?u=e1355fcb9496f138a2fd04161beb6d5bad59a3ec&v=4"
+                        }
+                    },
+                    {
+                        "name": "FE-Interview",
+                        "description": "🔥🔥🔥 前端面试，独有前端面试题详解，前端面试刷题必备，1000+前端面试真题，Html、Css、JavaScript、Vue、React、Node、TypeScript、Webpack、算法、网络与安全、浏览器",
+                        "url": "https://github.com/lgwebdream/FE-Interview",
+                        "homepageUrl": "https://lgwebdream.github.io/FE-Interview/",
+                        "forkCount": 899,
+                        "stargazerCount": 6807,
+                        "owner": {
+                            "login": "lgwebdream",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/7801735?u=a3ccbd178ebf4fca25c8916953c2cacaa48416fc&v=4"
+                        }
+                    },
+                    {
+                        "name": "vue-analysis",
+                        "description": ":thumbsup: Vue.js 源码分析",
+                        "url": "https://github.com/ustbhuangyi/vue-analysis",
+                        "homepageUrl": "https://ustbhuangyi.github.io/vue-analysis/",
+                        "forkCount": 1649,
+                        "stargazerCount": 7658,
+                        "owner": {
+                            "login": "ustbhuangyi",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/5359011?u=3775312a47fbdf87c61fd96b541312e33233de07&v=4"
+                        }
+                    },
+                    {
+                        "name": "awesome-lowcode",
+                        "description": "国内低代码平台从业者交流",
+                        "url": "https://github.com/taowen/awesome-lowcode",
+                        "homepageUrl": "",
+                        "forkCount": 1591,
+                        "stargazerCount": 13732,
+                        "owner": {
+                            "login": "taowen",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/40541?u=2bbef08a675bc57b78d42b8f9fdb6560594ad989&v=4"
+                        }
+                    },
+                    {
+                        "name": "Step-By-Step",
+                        "description": "不积跬步,无以至千里；",
+                        "url": "https://github.com/YvetteLau/Step-By-Step",
+                        "homepageUrl": "",
+                        "forkCount": 65,
+                        "stargazerCount": 704,
+                        "owner": {
+                            "login": "YvetteLau",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/20203157?u=05b1c4f5e2176847bd0b1984dc96357211d89c05&v=4"
+                        }
+                    },
+                    {
+                        "name": "vertical-center",
+                        "description": "水平垂直居中，这是一道面试必考题，^_^",
+                        "url": "https://github.com/yanhaijing/vertical-center",
+                        "homepageUrl": "http://yanhaijing.com/vertical-center/",
+                        "forkCount": 60,
+                        "stargazerCount": 443,
+                        "owner": {
+                            "login": "yanhaijing",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/3192087?v=4"
+                        }
+                    },
+                    {
+                        "name": "CS-Xmind-Note",
+                        "description": "计算机专业课（408）思维导图和笔记：计算机组成原理（第五版 王爱英），数据结构（王道），计算机网络（第七版 谢希仁），操作系统（第四版 汤小丹）",
+                        "url": "https://github.com/SSHeRun/CS-Xmind-Note",
+                        "homepageUrl": "",
+                        "forkCount": 2053,
+                        "stargazerCount": 8976,
+                        "owner": {
+                            "login": "SSHeRun",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/33786148?u=447d2042eef45c4bba5be3470fed764dba25ef85&v=4"
+                        }
+                    },
+                    {
+                        "name": "network-security-mind-map",
+                        "description": "☯️ 网络安全基础知识思维导图、大学笔记（Network security Mind Map）",
+                        "url": "https://github.com/MiYogurt/network-security-mind-map",
+                        "homepageUrl": "",
+                        "forkCount": 323,
+                        "stargazerCount": 923,
+                        "owner": {
+                            "login": "MiYogurt",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/10082395?u=8c13fc35d9e0e8b3f1e761fe790464b6758ad17c&v=4"
+                        }
+                    },
+                    {
+                        "name": "gitmoji",
+                        "description": "An emoji guide for your commit messages. 😜 ",
+                        "url": "https://github.com/carloscuesta/gitmoji",
+                        "homepageUrl": "https://gitmoji.dev",
+                        "forkCount": 799,
+                        "stargazerCount": 15608,
+                        "owner": {
+                            "login": "carloscuesta",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/7629661?u=b9a5e89be7f0f45954602dce3d79253e0b2d8039&v=4"
+                        }
+                    },
+                    {
+                        "name": "CS-Book",
+                        "description": "计算机类常用电子书整理，并且附带下载链接，包括Java，Python，Linux，Go，C，C++，数据结构与算法，人工智能，计算机基础，面试，设计模式，数据库，前端等书籍",
+                        "url": "https://github.com/iamshuaidi/CS-Book",
+                        "homepageUrl": "",
+                        "forkCount": 2725,
+                        "stargazerCount": 11276,
+                        "owner": {
+                            "login": "iamshuaidi",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/31848775?u=01c5e49c9881a524ccc5ba74158193486ef7d3d0&v=4"
+                        }
+                    },
+                    {
+                        "name": "libgif-js",
+                        "description": "JavaScript GIF parser and player",
+                        "url": "https://github.com/buzzfeed/libgif-js",
+                        "homepageUrl": "",
+                        "forkCount": 287,
+                        "stargazerCount": 1249,
+                        "owner": {
+                            "login": "buzzfeed",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/1781305?v=4"
+                        }
+                    },
+                    {
+                        "name": "vue-idle-game",
+                        "description": "一个全随机的刷装备小游戏",
+                        "url": "https://github.com/Couy69/vue-idle-game",
+                        "homepageUrl": "",
+                        "forkCount": 210,
+                        "stargazerCount": 1187,
+                        "owner": {
+                            "login": "Couy69",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/35017881?u=8d118bbc75a91a248d8682bd9df497b5f1e5591b&v=4"
+                        }
+                    },
+                    {
+                        "name": "DesignPattern",
+                        "description": "📚 Java 23种设计模式全归纳",
+                        "url": "https://github.com/youlookwhat/DesignPattern",
+                        "homepageUrl": "https://youlookwhat.github.io/DesignPattern",
+                        "forkCount": 1401,
+                        "stargazerCount": 4712,
+                        "owner": {
+                            "login": "youlookwhat",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/15052574?u=c2282320abbb4b77912eb80ca5103c65fd286074&v=4"
+                        }
+                    },
+                    {
+                        "name": "design-patterns-JS",
+                        "description": "All the 23 (GoF) design patterns implemented in Javascript",
+                        "url": "https://github.com/fbeline/design-patterns-JS",
+                        "homepageUrl": "",
+                        "forkCount": 640,
+                        "stargazerCount": 3581,
+                        "owner": {
+                            "login": "fbeline",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/5730881?u=aff88d4d93b4e3ff88c86be18059d76917f09c07&v=4"
+                        }
+                    },
+                    {
+                        "name": "design_patterns_in_typescript",
+                        "description": ":triangular_ruler: Design pattern implementations in TypeScript",
+                        "url": "https://github.com/torokmark/design_patterns_in_typescript",
+                        "homepageUrl": "http://torokmark.github.io/design_patterns_in_typescript/",
+                        "forkCount": 762,
+                        "stargazerCount": 5181,
+                        "owner": {
+                            "login": "torokmark",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/1975844?u=db326e761a4c4e6226a54bd581036e7b709e8393&v=4"
+                        }
+                    },
+                    {
+                        "name": "spy-debugger",
+                        "description": "微信调试，各种WebView样式调试、手机浏览器的页面真机调试。便捷的远程调试手机页面、抓包工具，支持：HTTP/HTTPS，无需USB连接设备。",
+                        "url": "https://github.com/wuchangming/spy-debugger",
+                        "homepageUrl": "",
+                        "forkCount": 833,
+                        "stargazerCount": 7504,
+                        "owner": {
+                            "login": "wuchangming",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/5039340?u=1cb32d801f85d79932cc48912e4c26e4d96cb8c3&v=4"
+                        }
+                    },
+                    {
+                        "name": "fks",
+                        "description": "前端技能汇总 Frontend Knowledge Structure",
+                        "url": "https://github.com/JacksonTian/fks",
+                        "homepageUrl": "http://html5ify.com/fks/",
+                        "forkCount": 4585,
+                        "stargazerCount": 17917,
+                        "owner": {
+                            "login": "JacksonTian",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/327019?v=4"
+                        }
+                    },
+                    {
+                        "name": "LeetCode-Go",
+                        "description": "✅ Solutions to LeetCode by Go, 100% test coverage, runtime beats 100% / LeetCode 题解",
+                        "url": "https://github.com/halfrost/LeetCode-Go",
+                        "homepageUrl": "https://books.halfrost.com/leetcode",
+                        "forkCount": 5671,
+                        "stargazerCount": 32691,
+                        "owner": {
+                            "login": "halfrost",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/10825609?u=03334ecb4f5215e795ed600b655acd597945d4f9&v=4"
+                        }
+                    },
+                    {
+                        "name": "myBlog",
+                        "description": "💡 致力于提升技术学习效率的博客",
+                        "url": "https://github.com/venaissance/myBlog",
+                        "homepageUrl": "https://venaissance.github.io/myBlog",
+                        "forkCount": 3,
+                        "stargazerCount": 23,
+                        "owner": {
+                            "login": "venaissance",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/10667498?u=4aca514460e90b2991c2c488d08a8216999d83f4&v=4"
+                        }
+                    },
+                    {
+                        "name": "JavaScript-Algorithms",
+                        "description": "基础理论+JS框架应用+实践，从0到1构建整个前端算法体系",
+                        "url": "https://github.com/sisterAn/JavaScript-Algorithms",
+                        "homepageUrl": "",
+                        "forkCount": 627,
+                        "stargazerCount": 5455,
+                        "owner": {
+                            "login": "sisterAn",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/19721451?u=28251581b90d3a0766b2d966ee21a79b8bb8cdc1&v=4"
+                        }
+                    },
+                    {
+                        "name": "leetcode-master",
+                        "description": "《代码随想录》LeetCode 刷题攻略：200道经典题目刷题顺序，共60w字的详细图解，视频难点剖析，50余张思维导图，支持C++，Java，Python，Go，JavaScript等多语言版本，从此算法学习不再迷茫！🔥🔥 来看看，你会发现相见恨晚！🚀 ",
+                        "url": "https://github.com/youngyangyang04/leetcode-master",
+                        "homepageUrl": "",
+                        "forkCount": 11311,
+                        "stargazerCount": 50464,
+                        "owner": {
+                            "login": "youngyangyang04",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/8636020?u=bfb439d6152b4aaf21a79b6ddfff4df1c1e24818&v=4"
+                        }
+                    },
+                    {
+                        "name": "FE-Essay",
+                        "description": "记录前端重要知识点和遇到的好文章，同时还有前端重要算法知识，但最关键的是包含各大小厂真题。",
+                        "url": "https://github.com/i-want-offer/FE-Essay",
+                        "homepageUrl": "https://i-want-offer.github.io/FE-Essay/",
+                        "forkCount": 253,
+                        "stargazerCount": 1043,
+                        "owner": {
+                            "login": "i-want-offer",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/68626059?v=4"
+                        }
+                    },
+                    {
+                        "name": "tsapi-from-yapi",
+                        "description": "把yapi网站接口转换为本地typescript intserface接口",
+                        "url": "https://github.com/dsmelon/tsapi-from-yapi",
+                        "homepageUrl": null,
+                        "forkCount": 4,
+                        "stargazerCount": 13,
+                        "owner": {
+                            "login": "dsmelon",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/24835261?v=4"
+                        }
+                    },
+                    {
+                        "name": "babel-plugin-exercize",
+                        "description": "小册《babel插件通关秘籍》实战案例代码",
+                        "url": "https://github.com/QuarkGluonPlasma/babel-plugin-exercize",
+                        "homepageUrl": "https://juejin.cn/book/6946117847848321055",
+                        "forkCount": 173,
+                        "stargazerCount": 507,
+                        "owner": {
+                            "login": "QuarkGluonPlasma",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/80755847?u=9512efc6e03a332d2865310a6f809ecd059d4aa9&v=4"
+                        }
+                    },
+                    {
+                        "name": "Golang-100-Days",
+                        "description": "Golang - 100天从新手到大师",
+                        "url": "https://github.com/rubyhan1314/Golang-100-Days",
+                        "homepageUrl": "",
+                        "forkCount": 1827,
+                        "stargazerCount": 5815,
+                        "owner": {
+                            "login": "rubyhan1314",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/40972628?u=61b5b621c8d96d9760de091222f21b49369b668e&v=4"
+                        }
+                    },
+                    {
+                        "name": "awesome-go",
+                        "description": "A curated list of awesome Go frameworks, libraries and software",
+                        "url": "https://github.com/avelino/awesome-go",
+                        "homepageUrl": "https://awesome-go.com",
+                        "forkCount": 11781,
+                        "stargazerCount": 128574,
+                        "owner": {
+                            "login": "avelino",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/31996?u=5b12d7ad63cadb2b3b523f7ea6d2901dd9b03bcc&v=4"
+                        }
+                    },
+                    {
+                        "name": "axios",
+                        "description": "Promise based HTTP client for the browser and node.js",
+                        "url": "https://github.com/axios/axios",
+                        "homepageUrl": "https://axios-http.com",
+                        "forkCount": 10820,
+                        "stargazerCount": 105185,
+                        "owner": {
+                            "login": "axios",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/32372333?v=4"
+                        }
+                    },
+                    {
+                        "name": "JavaGuide",
+                        "description": "「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！",
+                        "url": "https://github.com/Snailclimb/JavaGuide",
+                        "homepageUrl": "https://javaguide.cn",
+                        "forkCount": 45510,
+                        "stargazerCount": 145856,
+                        "owner": {
+                            "login": "Snailclimb",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/29880145?u=d2f8361655b9ebd973f5375acf014500bc0a4197&v=4"
+                        }
+                    },
+                    {
+                        "name": "JavaCollection",
+                        "description": "Java开源项目之「自学编程之路」：学习指南+面试指南+资源分享+技术文章",
+                        "url": "https://github.com/hansonwang99/JavaCollection",
+                        "homepageUrl": "",
+                        "forkCount": 713,
+                        "stargazerCount": 4263,
+                        "owner": {
+                            "login": "hansonwang99",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/15247067?u=b2311d45bca976d076fe994b2cd87dab12c3c92b&v=4"
+                        }
+                    },
+                    {
+                        "name": "share_ppt",
+                        "description": "🚗  个人做过的技术分享... ( topic: 高性能架构,  中间件原理实践，云原生，Golang 等)",
+                        "url": "https://github.com/rfyiamcool/share_ppt",
+                        "homepageUrl": "https://xiaorui.cc",
+                        "forkCount": 969,
+                        "stargazerCount": 5500,
+                        "owner": {
+                            "login": "rfyiamcool",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/3785409?u=4be39965811b26feb9f46cf22c55a7e8d1c62f9d&v=4"
+                        }
+                    },
+                    {
+                        "name": "ast-types",
+                        "description": "Esprima-compatible implementation of the Mozilla JS Parser API",
+                        "url": "https://github.com/benjamn/ast-types",
+                        "homepageUrl": "",
+                        "forkCount": 195,
+                        "stargazerCount": 1129,
+                        "owner": {
+                            "login": "benjamn",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/5750?u=95c71e43d35f4b2f7ea95474f5058bb51986f556&v=4"
+                        }
+                    },
+                    {
+                        "name": "955.WLB",
+                        "description": "955 不加班的公司名单 - 工作 955，work–life balance (工作与生活的平衡)",
+                        "url": "https://github.com/formulahendry/955.WLB",
+                        "homepageUrl": "",
+                        "forkCount": 1749,
+                        "stargazerCount": 34590,
+                        "owner": {
+                            "login": "formulahendry",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/1050213?v=4"
+                        }
+                    },
+                    {
+                        "name": "Daily-Question",
+                        "description": "互联网大厂内推及大厂面经整理，并且每天一道面试题推送。每天五分钟，半年大厂中",
+                        "url": "https://github.com/shfshanyue/Daily-Question",
+                        "homepageUrl": "https://q.shanyue.tech",
+                        "forkCount": 509,
+                        "stargazerCount": 4919,
+                        "owner": {
+                            "login": "shfshanyue",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/13389461?u=16552e123d7dffdea2a5b37ace02dd8f5d278493&v=4"
+                        }
+                    },
+                    {
+                        "name": "algo",
+                        "description": "数据结构和算法必知必会的50个代码实现",
+                        "url": "https://github.com/wangzheng0822/algo",
+                        "homepageUrl": "",
+                        "forkCount": 7065,
+                        "stargazerCount": 22843,
+                        "owner": {
+                            "login": "wangzheng0822",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/8136224?u=9bdcdf98fc0d93ad99c4aa0133e377ea95d95773&v=4"
+                        }
+                    },
+                    {
+                        "name": "javascript-tetris",
+                        "description": "A simple javascript tetris game",
+                        "url": "https://github.com/jakesgordon/javascript-tetris",
+                        "homepageUrl": "http://codeincomplete.com/posts/2011/10/10/javascript_tetris/",
+                        "forkCount": 771,
+                        "stargazerCount": 635,
+                        "owner": {
+                            "login": "jakesgordon",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/738109?u=9e9d45c348717e9b31710b3334595a02a4de0579&v=4"
+                        }
+                    },
+                    {
+                        "name": "win11React",
+                        "description": "Windows 11 in React 💻🌈⚡",
+                        "url": "https://github.com/blueedgetechno/win11React",
+                        "homepageUrl": "https://win11.blueedge.me",
+                        "forkCount": 925,
+                        "stargazerCount": 9031,
+                        "owner": {
+                            "login": "blueedgetechno",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/54899800?u=7002b65ba8ccd6af0356f7bedde4298bd1d32390&v=4"
+                        }
+                    },
+                    {
+                        "name": "awesome-react",
+                        "description": "A collection of awesome things regarding React ecosystem",
+                        "url": "https://github.com/enaqx/awesome-react",
+                        "homepageUrl": "",
+                        "forkCount": 7161,
+                        "stargazerCount": 64480,
+                        "owner": {
+                            "login": "enaqx",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/182219?u=dd4dcbd3e20f4418b4390cc76415ff4d5ef6f5ab&v=4"
+                        }
+                    },
+                    {
+                        "name": "bytedance-apm-group",
+                        "description": "字节跳动 APM 团队预备招聘社群，来一起聊聊大厂面试经验、简历如何编写、技术……",
+                        "url": "https://github.com/sl1673495/bytedance-apm-group",
+                        "homepageUrl": null,
+                        "forkCount": 4,
+                        "stargazerCount": 110,
+                        "owner": {
+                            "login": "sl1673495",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/23615778?u=ff0b0ccaf019ab47ec67e29ae677ee456e3dd4f5&v=4"
+                        }
+                    },
+                    {
+                        "name": "source-code-redux",
+                        "description": ":blue_book: Redux 源码解读及中文注释",
+                        "url": "https://github.com/Jacksonlike/source-code-redux",
+                        "homepageUrl": "",
+                        "forkCount": 0,
+                        "stargazerCount": 11,
+                        "owner": {
+                            "login": "Jacksonlike",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/29372506?u=b0204c18ed580a2408d903ada64b879e7827363e&v=4"
+                        }
+                    },
+                    {
+                        "name": "fetch",
+                        "description": "A window.fetch JavaScript polyfill.",
+                        "url": "https://github.com/JakeChampion/fetch",
+                        "homepageUrl": "",
+                        "forkCount": 2849,
+                        "stargazerCount": 25795,
+                        "owner": {
+                            "login": "JakeChampion",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/1569131?u=bd56470523d3d8f24891282228548484e426e192&v=4"
+                        }
+                    },
+                    {
+                        "name": "just-react",
+                        "description": "「React技术揭秘」  一本自顶向下的React源码分析书",
+                        "url": "https://github.com/BetaSu/just-react",
+                        "homepageUrl": "https://react.iamkasong.com/",
+                        "forkCount": 540,
+                        "stargazerCount": 6100,
+                        "owner": {
+                            "login": "BetaSu",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/15828041?u=3b08cdf9f9b49dbead9ffb020a94d925904d2b74&v=4"
+                        }
+                    },
+                    {
+                        "name": "big-react",
+                        "description": "跟着我，从0实现React18",
+                        "url": "https://github.com/BetaSu/big-react",
+                        "homepageUrl": "https://qux.xet.tech/s/2wiFh1",
+                        "forkCount": 383,
+                        "stargazerCount": 3668,
+                        "owner": {
+                            "login": "BetaSu",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/15828041?u=3b08cdf9f9b49dbead9ffb020a94d925904d2b74&v=4"
+                        }
+                    },
+                    {
+                        "name": "mall",
+                        "description": "mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于SpringBoot+MyBatis实现，采用Docker容器化部署。 前台商城系统包含首页门户、商品推荐、商品搜索、商品展示、购物车、订单流程、会员中心、客户服务、帮助中心等模块。 后台管理系统包含商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。",
+                        "url": "https://github.com/macrozheng/mall",
+                        "homepageUrl": "https://www.macrozheng.com/admin/",
+                        "forkCount": 28696,
+                        "stargazerCount": 77243,
+                        "owner": {
+                            "login": "macrozheng",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/15903809?u=c76ae8e89e30a5aeeaf667fbcb749efa73fa28b3&v=4"
+                        }
+                    },
+                    {
+                        "name": "goodBlog",
+                        "description": "我是koala, 公众号【程序员成长指北】的作者， 专注Node.js技术栈分享，从前端到Node.js再到后端数据库，帮您成为优秀的Node.js全栈工程师。和我一起进阶全栈吧！",
+                        "url": "https://github.com/koala-coding/goodBlog",
+                        "homepageUrl": "http://www.inode.club",
+                        "forkCount": 136,
+                        "stargazerCount": 865,
+                        "owner": {
+                            "login": "koala-coding",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/52817889?u=8487fb7e5d18fdaf8aea7436d21171a27605bce5&v=4"
+                        }
+                    },
+                    {
+                        "name": "vue",
+                        "description": "vue源码逐行注释分析+40多m的vue源码程序流程图思维导图(vue source code line by line annotation analysis +40 + m vue source code process flow chart mind map)",
+                        "url": "https://github.com/ygs-code/vue",
+                        "homepageUrl": "",
+                        "forkCount": 1817,
+                        "stargazerCount": 6766,
+                        "owner": {
+                            "login": "ygs-code",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/20044598?u=49908cdad271f30af5a226be02d284993aaa8f5b&v=4"
+                        }
+                    },
+                    {
+                        "name": "how-web-works",
+                        "description": "What happens behind the scenes when we type www.google.com in a browser?",
+                        "url": "https://github.com/vasanthk/how-web-works",
+                        "homepageUrl": null,
+                        "forkCount": 1722,
+                        "stargazerCount": 16026,
+                        "owner": {
+                            "login": "vasanthk",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/3537278?u=dd49b589cc4a8b58991ba2b3e4ce887aaf38d3a0&v=4"
+                        }
+                    },
+                    {
+                        "name": "dracula-theme",
+                        "description": "🧛🏻‍♂️ One theme. All platforms.",
+                        "url": "https://github.com/dracula/dracula-theme",
+                        "homepageUrl": "https://draculatheme.com",
+                        "forkCount": 2296,
+                        "stargazerCount": 22548,
+                        "owner": {
+                            "login": "dracula",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/19436447?v=4"
+                        }
+                    },
+                    {
+                        "name": "The-Art-of-Linear-Algebra",
+                        "description": "Graphic notes on Gilbert Strang's \"Linear Algebra for Everyone\"",
+                        "url": "https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra",
+                        "homepageUrl": null,
+                        "forkCount": 2146,
+                        "stargazerCount": 17597,
+                        "owner": {
+                            "login": "kenjihiranabe",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/1093925?u=a2d25dac66ebd51045a239467faa3954081643f6&v=4"
+                        }
+                    },
+                    {
+                        "name": "Crash-Course-Computer-Science-Chinese",
+                        "description": ":computer: 计算机速成课 | Crash Course 字幕组 (全40集 2018-5-1 精校完成) B站播放量 383万",
+                        "url": "https://github.com/1c7/Crash-Course-Computer-Science-Chinese",
+                        "homepageUrl": "https://www.bilibili.com/video/av21376839/",
+                        "forkCount": 1575,
+                        "stargazerCount": 10310,
+                        "owner": {
+                            "login": "1c7",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/1804755?u=aa448dd82b2ce011705b32666319b9fc5e030096&v=4"
+                        }
+                    },
+                    {
+                        "name": "leetcode",
+                        "description": "LeetCode题解，151道题完整版。",
+                        "url": "https://github.com/soulmachine/leetcode",
+                        "homepageUrl": "",
+                        "forkCount": 3433,
+                        "stargazerCount": 11272,
+                        "owner": {
+                            "login": "soulmachine",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/620768?u=469abca27813106c56204656d5f90b6f2e8c1281&v=4"
+                        }
+                    },
+                    {
+                        "name": "weekly",
+                        "description": "科技爱好者周刊，每周五发布",
+                        "url": "https://github.com/ruanyf/weekly",
+                        "homepageUrl": "",
+                        "forkCount": 2763,
+                        "stargazerCount": 45076,
+                        "owner": {
+                            "login": "ruanyf",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/905434?v=4"
+                        }
+                    },
+                    {
+                        "name": "mick-vue",
+                        "description": "基于vue3源码实现一个mini版的vue",
+                        "url": "https://github.com/qinran0423/mick-vue",
+                        "homepageUrl": null,
+                        "forkCount": 5,
+                        "stargazerCount": 129,
+                        "owner": {
+                            "login": "qinran0423",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/25677854?u=78d058d3b39c83a77409fc7899a262156dfe10f7&v=4"
+                        }
+                    },
+                    {
+                        "name": "blog",
+                        "description": "hx's blog",
+                        "url": "https://github.com/returnMaize/blog",
+                        "homepageUrl": "https://returnmaize.github.io/blog/",
+                        "forkCount": 0,
+                        "stargazerCount": 8,
+                        "owner": {
+                            "login": "returnMaize",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/50724097?u=29660e89ff1de0fdc802d3497304f709d88c5ad0&v=4"
+                        }
+                    },
+                    {
+                        "name": "smart-ide",
+                        "description": "在vscode插件中结合chatgpt能力，实现智能研发提效",
+                        "url": "https://github.com/airuikun/smart-ide",
+                        "homepageUrl": "",
+                        "forkCount": 73,
+                        "stargazerCount": 916,
+                        "owner": {
+                            "login": "airuikun",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/12043709?u=b24ed1ade8de7e8a566ddcac7f491118707d4d7c&v=4"
+                        }
+                    },
+                    {
+                        "name": "react-illustration-series",
+                        "description": "图解react源码, 用大量配图的方式, 致力于将react原理表述清楚.",
+                        "url": "https://github.com/7kms/react-illustration-series",
+                        "homepageUrl": "http://7km.top/",
+                        "forkCount": 796,
+                        "stargazerCount": 7447,
+                        "owner": {
+                            "login": "7kms",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/12625342?u=1548d9cb8bd763f138e98849b4ed18b8cad95ab7&v=4"
+                        }
+                    },
+                    {
+                        "name": "coder2gwy",
+                        "description": "互联网首份程序员考公指南，由3位已经进入体制内的前大厂程序员联合献上。",
+                        "url": "https://github.com/coder2gwy/coder2gwy",
+                        "homepageUrl": "",
+                        "forkCount": 3672,
+                        "stargazerCount": 26279,
+                        "owner": {
+                            "login": "coder2gwy",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/74944224?u=3ca31b00f37083139ac9ff97443da16d67e2af48&v=4"
+                        }
+                    },
+                    {
+                        "name": "dev-cheatsheets",
+                        "description": "A collection of code snippets and CLI guides for quick and easy reference while coding",
+                        "url": "https://github.com/MichaelCurrin/dev-cheatsheets",
+                        "homepageUrl": "https://michaelcurrin.github.io/dev-cheatsheets/",
+                        "forkCount": 26,
+                        "stargazerCount": 76,
+                        "owner": {
+                            "login": "MichaelCurrin",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/18750745?u=e6e1b14ca73d294d03c9e83d69f0e1209f4600cd&v=4"
+                        }
+                    },
+                    {
+                        "name": "996.ICU",
+                        "description": "Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
+                        "url": "https://github.com/996icu/996.ICU",
+                        "homepageUrl": "https://996.icu",
+                        "forkCount": 21182,
+                        "stargazerCount": 269668,
+                        "owner": {
+                            "login": "996icu",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/48942249?u=e23a2b9c40e2f896c0e3132cbec92900ed91a0d5&v=4"
+                        }
+                    },
+                    {
+                        "name": "node-express-boilerplate",
+                        "description": "A boilerplate for building production-ready RESTful APIs using Node.js, Express, and Mongoose",
+                        "url": "https://github.com/hagopj13/node-express-boilerplate",
+                        "homepageUrl": "",
+                        "forkCount": 2009,
+                        "stargazerCount": 6818,
+                        "owner": {
+                            "login": "hagopj13",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/20812633?u=2242a3cfbaa7b6eb3c88252764e0b5f4da7718a5&v=4"
+                        }
+                    },
+                    {
+                        "name": "egg",
+                        "description": "🥚 Born to build better enterprise frameworks and apps with Node.js & Koa",
+                        "url": "https://github.com/eggjs/egg",
+                        "homepageUrl": "https://eggjs.org",
+                        "forkCount": 1812,
+                        "stargazerCount": 18868,
+                        "owner": {
+                            "login": "eggjs",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/15833670?v=4"
+                        }
+                    },
+                    {
+                        "name": "express",
+                        "description": "Fast, unopinionated, minimalist web framework for node.",
+                        "url": "https://github.com/expressjs/express",
+                        "homepageUrl": "https://expressjs.com",
+                        "forkCount": 15473,
+                        "stargazerCount": 64851,
+                        "owner": {
+                            "login": "expressjs",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/5658226?v=4"
+                        }
+                    },
+                    {
+                        "name": "koa",
+                        "description": "Expressive middleware for node.js using ES2017 async functions",
+                        "url": "https://github.com/koajs/koa",
+                        "homepageUrl": "https://koajs.com",
+                        "forkCount": 3223,
+                        "stargazerCount": 35113,
+                        "owner": {
+                            "login": "koajs",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/5055057?v=4"
+                        }
+                    },
+                    {
+                        "name": "system-design-101",
+                        "description": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
+                        "url": "https://github.com/ByteByteGoHq/system-design-101",
+                        "homepageUrl": "https://blog.bytebytego.com/",
+                        "forkCount": 6546,
+                        "stargazerCount": 62912,
+                        "owner": {
+                            "login": "ByteByteGoHq",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/120689636?v=4"
+                        }
+                    },
+                    {
+                        "name": "wzry",
+                        "description": "🌈基于 Vue3+TS的王者荣耀图鉴🚀",
+                        "url": "https://github.com/lengyibai/wzry",
+                        "homepageUrl": "https://lengyibai.github.io/wztj",
+                        "forkCount": 130,
+                        "stargazerCount": 735,
+                        "owner": {
+                            "login": "lengyibai",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/74140255?u=0e6d6ff84b121d7a1ec6ea131e7a7466801db5f9&v=4"
+                        }
+                    },
+                    {
+                        "name": "three-demo",
+                        "description": "threejs实现的案例",
+                        "url": "https://github.com/JiaHongTennis/three-demo",
+                        "homepageUrl": null,
+                        "forkCount": 0,
+                        "stargazerCount": 6,
+                        "owner": {
+                            "login": "JiaHongTennis",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/161677994?v=4"
+                        }
+                    }
+                ]
+            },
+            "repositories": {
+                "nodes": [
+                    {
+                        "name": "my_vue_node",
+                        "description": null,
+                        "url": "https://github.com/zzcyes/my_vue_node",
+                        "homepageUrl": null,
+                        "isPrivate": true,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "data-structures",
+                        "description": "JavaScript Data Structures",
+                        "url": "https://github.com/zzcyes/data-structures",
+                        "homepageUrl": null,
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 1,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "pet-health-egg",
+                        "description": null,
+                        "url": "https://github.com/zzcyes/pet-health-egg",
+                        "homepageUrl": null,
+                        "isPrivate": true,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "pet-health-webapp1",
+                        "description": null,
+                        "url": "https://github.com/zzcyes/pet-health-webapp1",
+                        "homepageUrl": null,
+                        "isPrivate": true,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "pet-health-webapp",
+                        "description": null,
+                        "url": "https://github.com/zzcyes/pet-health-webapp",
+                        "homepageUrl": null,
+                        "isPrivate": true,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "my-blog",
+                        "description": "Blogs built using VuePress",
+                        "url": "https://github.com/zzcyes/my-blog",
+                        "homepageUrl": null,
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 2,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "leetcode",
+                        "description": "leetcode every day",
+                        "url": "https://github.com/zzcyes/leetcode",
+                        "homepageUrl": "",
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 2,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "css-horizontal-vertical-center",
+                        "description": "Created with CodeSandbox",
+                        "url": "https://github.com/zzcyes/css-horizontal-vertical-center",
+                        "homepageUrl": "https://codesandbox.io/s/github/zzcyes/codesandbox-app",
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 1,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "zzcyes",
+                        "description": null,
+                        "url": "https://github.com/zzcyes/zzcyes",
+                        "homepageUrl": null,
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 1,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "front-end-learning-notes",
+                        "description": "This is a personal front-end learning notes.",
+                        "url": "https://github.com/zzcyes/front-end-learning-notes",
+                        "homepageUrl": null,
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 1,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "daily-demo",
+                        "description": "Usual technical practice",
+                        "url": "https://github.com/zzcyes/daily-demo",
+                        "homepageUrl": null,
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 1,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "www.zzcyes.com",
+                        "description": "钟子晨的个人博客网站",
+                        "url": "https://github.com/zzcyes/www.zzcyes.com",
+                        "homepageUrl": "https://www.zzcyes.com",
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 1,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "mind-maps-repository",
+                        "description": "A repository for mind maps",
+                        "url": "https://github.com/zzcyes/mind-maps-repository",
+                        "homepageUrl": null,
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 1,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "blogs",
+                        "description": "A personal blog that records usual technical issues and learns technical knowledge.",
+                        "url": "https://github.com/zzcyes/blogs",
+                        "homepageUrl": "",
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 1,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "front-end-roadmap",
+                        "description": "Go to tencent.",
+                        "url": "https://github.com/zzcyes/front-end-roadmap",
+                        "homepageUrl": "",
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 1,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "react-app",
+                        "description": null,
+                        "url": "https://github.com/zzcyes/react-app",
+                        "homepageUrl": null,
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 1,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "nest-server",
+                        "description": null,
+                        "url": "https://github.com/zzcyes/nest-server",
+                        "homepageUrl": null,
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 1,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "collected-articles",
+                        "description": "Collect some interesting or high-quality technical articles.",
+                        "url": "https://github.com/zzcyes/collected-articles",
+                        "homepageUrl": null,
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 1,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "react-practice-app",
+                        "description": "React learning and practicing apps.",
+                        "url": "https://github.com/zzcyes/react-practice-app",
+                        "homepageUrl": null,
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 1,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "front-end-interview-notes",
+                        "description": ":lipstick: 前端面试知识点、笔记  Record the front end of the interview.",
+                        "url": "https://github.com/zzcyes/front-end-interview-notes",
+                        "homepageUrl": "",
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 2,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "react-tools-app",
+                        "description": "Application of common tools",
+                        "url": "https://github.com/zzcyes/react-tools-app",
+                        "homepageUrl": null,
+                        "isPrivate": true,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "springboot-tools-serve",
+                        "description": "A tool service segment created with Spring Boot",
+                        "url": "https://github.com/zzcyes/springboot-tools-serve",
+                        "homepageUrl": null,
+                        "isPrivate": true,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "redux-debugger-react",
+                        "description": "debugger rudux ",
+                        "url": "https://github.com/zzcyes/redux-debugger-react",
+                        "homepageUrl": null,
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 1,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "redux-debugger-node",
+                        "description": "Debug redux in node environment",
+                        "url": "https://github.com/zzcyes/redux-debugger-node",
+                        "homepageUrl": null,
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 1,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "nextjs-blog",
+                        "description": "A personal blog website built with Next.js.",
+                        "url": "https://github.com/zzcyes/nextjs-blog",
+                        "homepageUrl": "https://www.zzcyes.com/blogs",
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 1,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "redux-analyzing",
+                        "description": "Predictable state container for JavaScript apps",
+                        "url": "https://github.com/zzcyes/redux-analyzing",
+                        "homepageUrl": "https://redux.js.org",
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 1,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "babel-forked-v7.20.6",
+                        "description": "Fork the source code, which is used to learn the source code and debug the code by myself.",
+                        "url": "https://github.com/zzcyes/babel-forked-v7.20.6",
+                        "homepageUrl": "https://babel.dev",
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 1,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "oye-react",
+                        "description": "从0实现 React 18",
+                        "url": "https://github.com/zzcyes/oye-react",
+                        "homepageUrl": null,
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 1,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "graphics-practice",
+                        "description": "图形学实践",
+                        "url": "https://github.com/zzcyes/graphics-practice",
+                        "homepageUrl": null,
+                        "isPrivate": true,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "nest-app",
+                        "description": null,
+                        "url": "https://github.com/zzcyes/nest-app",
+                        "homepageUrl": null,
+                        "isPrivate": true,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "fe-training-camp",
+                        "description": null,
+                        "url": "https://github.com/zzcyes/fe-training-camp",
+                        "homepageUrl": null,
+                        "isPrivate": true,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "the-super-tiny-compiler",
+                        "description": "⛄ Possibly the smallest compiler ever",
+                        "url": "https://github.com/zzcyes/the-super-tiny-compiler",
+                        "homepageUrl": null,
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "grab-yqt",
+                        "description": null,
+                        "url": "https://github.com/zzcyes/grab-yqt",
+                        "homepageUrl": null,
+                        "isPrivate": true,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "vue-app-debugger",
+                        "description": null,
+                        "url": "https://github.com/zzcyes/vue-app-debugger",
+                        "homepageUrl": null,
+                        "isPrivate": true,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "vue-v2.6.14-debugger",
+                        "description": null,
+                        "url": "https://github.com/zzcyes/vue-v2.6.14-debugger",
+                        "homepageUrl": null,
+                        "isPrivate": true,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "vue-router-v3.5.1-debugger",
+                        "description": null,
+                        "url": "https://github.com/zzcyes/vue-router-v3.5.1-debugger",
+                        "homepageUrl": null,
+                        "isPrivate": true,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "vuex-v3.6.2-debugger",
+                        "description": null,
+                        "url": "https://github.com/zzcyes/vuex-v3.6.2-debugger",
+                        "homepageUrl": null,
+                        "isPrivate": true,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "code-snippets",
+                        "description": "Record commonly used code snippets or demos",
+                        "url": "https://github.com/zzcyes/code-snippets",
+                        "homepageUrl": null,
+                        "isPrivate": true,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "react17-vite-app",
+                        "description": null,
+                        "url": "https://github.com/zzcyes/react17-vite-app",
+                        "homepageUrl": null,
+                        "isPrivate": true,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "use",
+                        "description": "Things I am using",
+                        "url": "https://github.com/zzcyes/use",
+                        "homepageUrl": null,
+                        "isPrivate": true,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "vscode-settings",
+                        "description": "My VS Code settings and extensions",
+                        "url": "https://github.com/zzcyes/vscode-settings",
+                        "homepageUrl": null,
+                        "isPrivate": true,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "react-boilerplate-cra-template",
+                        "description": "React app template created with create-react-app for building scalable user interfaces.",
+                        "url": "https://github.com/zzcyes/react-boilerplate-cra-template",
+                        "homepageUrl": "",
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "react-cli",
+                        "description": "快速创建 react 模板脚手架",
+                        "url": "https://github.com/zzcyes/react-cli",
+                        "homepageUrl": "",
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "express-boilerplate",
+                        "description": null,
+                        "url": "https://github.com/zzcyes/express-boilerplate",
+                        "homepageUrl": null,
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "ts-to-mock",
+                        "description": "Quickly generate mock data based on the structure of your TypeScript interfaces.",
+                        "url": "https://github.com/zzcyes/ts-to-mock",
+                        "homepageUrl": "https://www.zzcyes.com/projects/ts-to-mock",
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "proxy-hot-reload-middleware",
+                        "description": "Express middleware for hot-reloading proxy configurations",
+                        "url": "https://github.com/zzcyes/proxy-hot-reload-middleware",
+                        "homepageUrl": "https://www.npmjs.com/package/proxy-hot-reload-middleware",
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "chat-llm-vue",
+                        "description": "A Vue.js-based chatbot powered by LLM for intelligent real-time conversations.",
+                        "url": "https://github.com/zzcyes/chat-llm-vue",
+                        "homepageUrl": "https://www.zzcyes.com/projects/chat-llm-vue",
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "chat-llm-node",
+                        "description": "Node.js-powered LLM-based chatbot for intelligent conversations.",
+                        "url": "https://github.com/zzcyes/chat-llm-node",
+                        "homepageUrl": null,
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "ts2mock-web",
+                        "description": "Quickly generate mock data based on the structure of your TypeScript interfaces.",
+                        "url": "https://github.com/zzcyes/ts2mock-web",
+                        "homepageUrl": "https://www.zzcyes.com/projects/ts-to-mock/",
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "ts2mock-node",
+                        "description": "Quickly generate mock data based on the structure of your TypeScript interfaces.",
+                        "url": "https://github.com/zzcyes/ts2mock-node",
+                        "homepageUrl": null,
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    },
+                    {
+                        "name": "webfolio",
+                        "description": "A web portfolio showcasing my projects with links and detailed descriptions.",
+                        "url": "https://github.com/zzcyes/webfolio",
+                        "homepageUrl": null,
+                        "isPrivate": false,
+                        "forkCount": 0,
+                        "stargazerCount": 0,
+                        "owner": {
+                            "login": "zzcyes",
+                            "avatarUrl": "https://avatars.githubusercontent.com/u/39429306?u=936506b9ec8888805946b3de3bab14a36b5d6bbe&v=4"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "layout": {
+    "sidebar": {
+      "width": 250
+    },
+    "mainContent": {
+      "padding": 20
+    }
+  },
+  "navbar": [
+    {
+      "name": "Home",
+      "href": "https://www.zzcyes.com"
+    },
+    {
+      "name": "Blog",
+      "href": "https://www.zzcyes.com/blogs"
+    },
+    {
+      "name": "Projects",
+      "href": "https://www.zzcyes.com/projects/webfolio"
+    },
+    {
+      "name": "Email",
+      "href": "mailto:zhongzichenn@gmail.com"
+    },
+    {
+      "name": "Github",
+      "href": "https://github.com/zzcyes"
+    }
+  ],
+  "sidebar": {
+    "title": "ZZCYES' Github"
+  }
+}

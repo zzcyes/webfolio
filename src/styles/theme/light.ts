@@ -1,0 +1,19 @@
+export const background = "#f8f9fa";
+export const text = "#333333";
+export const textSecondary = "#666666";
+export const border = "rgba(0, 0, 0, 0.1)";
+export const cardBackground = "#ffffff";
+export const cardShadow = "rgba(0, 0, 0, 0.1)";
+export const hover = "rgba(0, 0, 0, 0.05)";
+export const accent = "#ff6a00";
+export const scrollbarTrack = "#ffffff";
+export const scrollbarThumb = "#c1c1c1";
+export const scrollbarThumbHover = "#a8a8a8";
+
+// export const background = "var(--color-background-light)";
+// export const text = "var(--color-text-light)";
+// export const textSecondary = "var(--color-text-secondary-light)";
+// export const border = "var(--color-border-light)";
+// export const cardBackground = "var(--color-card-background-light)";
+// export const hover = "var(--color-hover-light)";
+// export const accent = "var(--color-accent-light)";
