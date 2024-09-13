@@ -6,13 +6,12 @@ const Navbar = () => {
   const [{ navbar }] = useConfig();
   const [collapsed, toggleCollapsed] = useCollapsed();
   const [themeMode, toggleThemeMode] = useTheme();
-
   const isDarkMode = themeMode === "dark";
 
   return (
     <>
       <HeaderContainer>
-        <ToggleSidebarButton onClick={() => toggleCollapsed()}>
+        <ToggleSidebarButton onClick={toggleCollapsed}>
           {collapsed ? <FaTimes /> : <FaBars />}
         </ToggleSidebarButton>
         <NavBar>
@@ -22,7 +21,7 @@ const Navbar = () => {
             </NavItem>
           ))}
         </NavBar>
-        <ThemeToggle onClick={() => toggleThemeMode()}>
+        <ThemeToggle onClick={toggleThemeMode}>
           {isDarkMode ? <FaSun /> : <FaMoon />}
         </ThemeToggle>
       </HeaderContainer>

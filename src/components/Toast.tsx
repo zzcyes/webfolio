@@ -22,7 +22,7 @@ const ToastContainer = styled.div`
   bottom: 20px;
   right: 20px;
   background-color: ${(props) => props.theme.accent};
-  color: ${(props) => props.theme.background};
+  color: #fff;
   padding: 10px 20px;
   border-radius: 4px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
@@ -39,11 +39,10 @@ const ToastMessage = styled.div`
   margin-right: 10px;
 `;
 
-const CloseButton = styled.button`
+const CloseButton = styled.div`
   background: none;
   border: none;
-  color: ${(props) => props.theme.background};
-  cursor: pointer;
+  color: #fff;
   font-size: 16px;
   padding: 0;
   display: flex;
@@ -52,11 +51,7 @@ const CloseButton = styled.button`
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  transition: background-color 0.2s ease;
-
-  &:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-  }
+  cursor: pointer;
 `;
 
 export default Toast;

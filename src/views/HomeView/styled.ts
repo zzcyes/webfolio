@@ -12,9 +12,6 @@ export const PageContainer = styled.div`
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: ${(props) => props.theme.text};
-  background-color: ${(props) => props.theme.background};
 `;
 
 export const SidebarContainer = styled.div`

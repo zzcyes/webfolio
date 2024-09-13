@@ -20,13 +20,13 @@ const ProjectCard: React.FC<IProps> = ({ item }) => {
 
   if (!item) return null;
   const project = item;
-  console.debug("project", project);
 
   const owner = project?.owner?.login ?? "";
   const repo = project?.name ?? "";
   const forkRepoUrl = `https://github.com/${owner}/${repo}/network/members`;
   const startRepoUrl = `https://github.com/${owner}/${repo}/stargazers`;
   const cloneUrl = `https://github.com/${owner}/${repo}.git`;
+
   return (
     <ProjectItem key={project?.id}>
       <ProjectHeader>
@@ -120,7 +120,7 @@ const ProjectIcon = styled.img`
   height: 30px;
   border-radius: 50%;
   margin-right: 10px;
-  background-color: aliceblue;
+  background-color: ${(props) => props.theme.cardBackground};
 `;
 
 const ProjectIconPlaceholder = styled.div`

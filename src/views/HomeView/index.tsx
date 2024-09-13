@@ -49,7 +49,6 @@ const HomeViews: React.FC = () => {
     try {
       const res = await ReposApi.getGithubReposByGrahql();
       const { repositories, starredRepositories } = res;
-      console.debug("graphql", res);
       const newRepositories = formattedRepos(repositories?.nodes);
       const newStarredRepositories = formattedRepos(starredRepositories?.nodes);
       setResult({
@@ -57,7 +56,7 @@ const HomeViews: React.FC = () => {
         starredRepositories: newStarredRepositories,
       });
     } catch (err) {
-      console.error("getGithubReposByGrahql:", err);
+      console.error(err);
     } finally {
       setLoading(false);
     }

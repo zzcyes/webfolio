@@ -13,7 +13,6 @@ const getAccessToken = () => {
 
 export const getGithubReposByGrahql = async () => {
   const token = getAccessToken();
-  console.debug("getGithubReposByGrahql", token);
   if (!token) {
     return reposJson.data.viewer;
   }
@@ -65,11 +64,9 @@ export const getGithubReposByGrahql = async () => {
       data: JSON.stringify({ query }),
     });
 
-    console.debug("response", response);
-
     return response.data.data.viewer;
   } catch (err: unknown) {
-    console.debug("err", err);
+    console.error(err);
     return reposJson.data.viewer;
     // throw new Error(err?.toString() as string);
   }
@@ -99,7 +96,7 @@ export const getGithubRepos = async ({
     const repositories = await response;
     return repositories;
   } catch (err: unknown) {
-    console.debug("err", err);
+    console.error(err);
     throw new Error(err?.toString() as string);
   }
 };

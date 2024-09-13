@@ -1,7 +1,7 @@
 import { useRecoilState } from "recoil";
 import { themeModeState } from "@/store";
 
-const useToast = (): ["light" | "dark", () => void] => {
+const useTheme = (): ["light" | "dark", () => void] => {
   const [themeMode, setThemeMode] = useRecoilState(themeModeState);
 
   const toggle = () => {
@@ -11,4 +11,4 @@ const useToast = (): ["light" | "dark", () => void] => {
   return [themeMode, toggle];
 };
 
-export default useToast;
+export default useTheme;

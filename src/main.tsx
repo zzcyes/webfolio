@@ -15,12 +15,8 @@ const createRoot = () => {
 };
 
 const initApp = async () => {
-  if (import.meta.env.DEV) {
-    console.debug(import.meta.env);
-    if (import.meta.env.VITE_OPEN_MOCK === "true") {
-      await registerMockConfig();
-      console.debug("registerMockConfig success");
-    }
+  if (import.meta.env.DEV && import.meta.env.VITE_OPEN_MOCK === "true") {
+    await registerMockConfig();
   }
   createRoot();
 };

@@ -1,7 +1,26 @@
+@import "./root.css";
 @import "./reset.css";
+
+
 
 *,
 *:before,
 *:after {
     box-sizing: border-box;
+}
+
+html[data-theme="light"] {
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+html[data-theme="dark"] {
+    background-color: var(--color-background-reverse);
+    color: var(--color-text-reverse);
+}
+
+html,
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
 }
