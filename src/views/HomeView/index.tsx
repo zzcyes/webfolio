@@ -3,17 +3,16 @@ import { css } from "@emotion/css";
 import { FaUserCircle, FaStar } from "react-icons/fa";
 import { useRecoilState, useSetRecoilState } from "recoil";
 import { currCategoryIdState, projectsLoadingState } from "@/store";
-import { CategoryList, ProjectPanel, Sidebar, Navbar } from "@/components";
+import { ProjectPanel, Navbar } from "@/components";
 import { ReposApi } from "@/common/services";
 import {
   PageContainer,
   MainContentContainer,
   MainContentCard,
   ContentSection,
-  SidebarContainer,
 } from "./styled";
-import { useConfig, useCollapsed } from "@/common/hooks";
-import { normalizeCssSize } from "@/common/utils";
+import { useConfig } from "@/common/hooks";
+import { Sidebar } from "@/components";
 
 const formattedRepos = (origin) => {
   return origin?.map?.((item) => {
@@ -29,7 +28,6 @@ const HomeViews: React.FC = () => {
   const setLoading = useSetRecoilState(projectsLoadingState);
 
   const [{ layout }] = useConfig();
-  const [collapsed] = useCollapsed();
 
   const [categories] = useState([
     {
@@ -66,28 +64,6 @@ const HomeViews: React.FC = () => {
     getGithubReposByGrahql();
   }, [getGithubReposByGrahql]);
 
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     setLoading(true);
-  //     try {
-  //       const res = await ReposApi.getLocalGithubRepos();
-  //       const { repositories, starredRepositories } = res;
-  //       console.debug("graphql", res);
-  //       const newRepositories = formattedRepos(repositories.nodes);
-  //       const newStarredRepositories = formattedRepos(
-  //         starredRepositories.nodes
-  //       );
-  //       setResult({
-  //         repositories: newRepositories,
-  //         starredRepositories: newStarredRepositories,
-  //       });
-  //     } finally {
-  //       setLoading(false);
-  //     }
-  //   };
-  //   fetchData();
-  // }, [setLoading]);
-
   const [currCategoryId, setCurrCategoryId] =
     useRecoilState(currCategoryIdState);
 
@@ -103,16 +79,7 @@ const HomeViews: React.FC = () => {
 
   return (
     <PageContainer>
-      <SidebarContainer
-        style={{
-          width: collapsed ? "0px" : normalizeCssSize(layout.sidebar.width),
-        }}
-        className={collapsed ? "fadeOutLeft" : "fadeInLeft"}
-      >
-        <Sidebar>
-          <CategoryList list={categories} />
-        </Sidebar>
-      </SidebarContainer>
+      <Sidebar categories={categories} />
       <MainContentContainer
         className={css`
           padding: ${layout.mainContent.padding}px;

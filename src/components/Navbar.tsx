@@ -1,19 +1,50 @@
 import styled from "@emotion/styled";
 import { FaSun, FaMoon, FaBars, FaTimes } from "react-icons/fa";
 import { useConfig, useCollapsed, useTheme } from "@/common/hooks";
+import { css } from "@emotion/css";
+import { useMediaQuery } from "react-responsive";
 
-const Navbar = () => {
-  const [{ navbar }] = useConfig();
-  const [collapsed, toggleCollapsed] = useCollapsed();
-  const [themeMode, toggleThemeMode] = useTheme();
-  const isDarkMode = themeMode === "dark";
+const FaIcons = [<FaBars />, <FaTimes />];
+
+export const CollapsedToggleButton = ({
+  reverse,
+  collapsed,
+  onToggle,
+}: {
+  reverse?: boolean;
+  collapsed: boolean;
+  onToggle: () => void;
+}) => {
+  const [collapsedIcon, expandedIcon] = reverse ? FaIcons.reverse() : FaIcons;
 
   return (
     <>
-      <HeaderContainer>
-        <ToggleSidebarButton onClick={toggleCollapsed}>
-          {collapsed ? <FaTimes /> : <FaBars />}
-        </ToggleSidebarButton>
+      <ToggleButton onClick={onToggle}>
+        {collapsed ? collapsedIcon : expandedIcon}
+      </ToggleButton>
+    </>
+  );
+};
+
+const Navbar = () => {
+  const [{ navbar, layout, mediaQuery }] = useConfig();
+  const [collapsed, toggleCollapsed] = useCollapsed();
+  const [themeMode, toggleThemeMode] = useTheme();
+  const isDarkMode = themeMode === "dark";
+  const isMobile = useMediaQuery({ maxWidth: mediaQuery.mobile });
+
+  return (
+    <>
+      <HeaderContainer
+        className={css`
+          padding: ${layout.navbar.padding}px;
+        `}
+      >
+        <CollapsedToggleButton
+          reverse={isMobile}
+          collapsed={collapsed}
+          onToggle={() => toggleCollapsed()}
+        />
         <NavBar>
           {navbar?.map((item) => (
             <NavItem href={item.href} key={item.href}>
@@ -21,9 +52,9 @@ const Navbar = () => {
             </NavItem>
           ))}
         </NavBar>
-        <ThemeToggle onClick={toggleThemeMode}>
+        <ToggleButton onClick={toggleThemeMode}>
           {isDarkMode ? <FaSun /> : <FaMoon />}
-        </ThemeToggle>
+        </ToggleButton>
       </HeaderContainer>
     </>
   );
@@ -36,11 +67,13 @@ const HeaderContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 20px;
   border-bottom: 1px solid ${(props) => props.theme.border};
 `;
 
-const ToggleSidebarButton = styled.div`
+export const ToggleButton = styled.div`
+  display: flex;
+  align-items: center;
+  background-color: transparent;
   border: none;
   font-size: 24px;
   cursor: pointer;
@@ -63,11 +96,4 @@ const NavItem = styled.a`
   &:hover {
     color: ${(props) => props.theme.accent};
   }
-`;
-
-const ThemeToggle = styled.div`
-  background-color: transparent;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
 `;

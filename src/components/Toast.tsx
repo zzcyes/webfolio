@@ -1,14 +1,39 @@
+import { useEffect } from "react";
 import styled from "@emotion/styled";
 import { useToast } from "@/common/hooks";
 import { FaTimes } from "react-icons/fa";
+import { useMediaQuery } from "react-responsive";
+import { useConfig } from "@/common/hooks";
+import { css } from "@emotion/css";
+import { normalizeCssSizeNumber } from "@/common/utils";
 
 const Toast = () => {
   const { open, message, closeToast } = useToast();
+  const [{ layout, mediaQuery }] = useConfig();
+  const isWeb = useMediaQuery({ minWidth: mediaQuery.web });
+
+  useEffect(() => {
+    if (open) {
+      setTimeout(() => {
+        closeToast();
+      }, 3000);
+    }
+  }, [closeToast, open]);
 
   if (!open) return null;
 
   return (
-    <ToastContainer>
+    <ToastContainer
+      className={css`
+        ${isWeb
+          ? "bottom:0px; right: 0px; min-width: 200px; max-width: 400px;"
+          : `bottom: ${layout.mainContent.padding}px; right: ${
+              layout.mainContent.padding
+            }px; width: calc(100% - ${
+              normalizeCssSizeNumber(layout.mainContent.padding) * 2
+            }px); `}
+      `}
+    >
       <ToastMessage>{message}</ToastMessage>
       <CloseButton onClick={closeToast}>
         <FaTimes />
@@ -19,8 +44,6 @@ const Toast = () => {
 
 const ToastContainer = styled.div`
   position: fixed;
-  bottom: 20px;
-  right: 20px;
   background-color: ${(props) => props.theme.accent};
   color: #fff;
   padding: 10px 20px;
@@ -30,8 +53,6 @@ const ToastContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-width: 200px;
-  max-width: 400px;
 `;
 
 const ToastMessage = styled.div`

@@ -1,10 +1,30 @@
 {
-  "layout": {
+  "mediaQuery": {
+    "mobile": 768,
+    "web": 769
+  },
+  "layout.web": {
     "sidebar": {
       "width": 250
     },
     "mainContent": {
       "padding": 20
+    },
+    "navbar": {
+      "height": 65,
+      "padding": 20
+    }
+  },
+  "layout.mobile": {
+    "sidebar": {
+      "width": 120
+    },
+    "mainContent": {
+      "padding": 20
+    },
+    "navbar": {
+      "height": 45,
+      "padding": 10
     }
   },
   "navbar": [

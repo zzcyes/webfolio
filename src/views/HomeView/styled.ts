@@ -1,34 +1,11 @@
 import styled from "@emotion/styled";
-import {
-  baseAnimation,
-  fadeInLeft,
-  fadeInRight,
-  fadeOutLeft,
-  fadeOutRight,
-} from "@/styles/animation";
+import { baseAnimation, fadeInRight, fadeOutRight } from "@/styles/animation";
 
 export const PageContainer = styled.div`
   display: flex;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-`;
-
-export const SidebarContainer = styled.div`
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  transition: width 0.3s ease;
-  flex-shrink: 0;
-  overflow: hidden;
-
-  &.fadeInLeft {
-    ${baseAnimation(fadeInLeft)}
-  }
-
-  &.fadeOutLeft {
-    ${baseAnimation(fadeOutLeft)}
-  }
 `;
 
 export const MainContentContainer = styled.div`
@@ -38,6 +15,7 @@ export const MainContentContainer = styled.div`
   flex: 1;
   height: 100%;
   transition: width 0.3s ease;
+  overflow: hidden;
 
   &.fadeInRight {
     ${baseAnimation(fadeInRight)}
@@ -67,4 +45,5 @@ export const ContentSection = styled.div`
   height: 100%;
   padding: 20px 0px;
   overflow-y: auto;
+  scrollbar-gutter: stable; // 保留滚动条的位置
 `;

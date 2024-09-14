@@ -9,13 +9,29 @@ import {
 } from "react-icons/fa";
 import useToast from "@/common/hooks/useToast";
 
-interface IProps {
-  item?: any;
+export interface IProjectItem {
+  id: string;
+  name: string;
+  description: string;
+  github: string;
+  email: string;
+  link: string;
+  owner: {
+    login: string;
+    avatarUrl: string;
+  };
+  stargazerCount: number;
+  forkCount: number;
+  homepageUrl?: string;
+  url?: string;
+}
+export interface IProjectCardProps {
+  item?: IProjectItem;
 }
 
 const IconLink = styled.a``;
 
-const ProjectCard: React.FC<IProps> = ({ item }) => {
+const ProjectCard: React.FC<IProjectCardProps> = ({ item }) => {
   const { showToast } = useToast();
 
   if (!item) return null;

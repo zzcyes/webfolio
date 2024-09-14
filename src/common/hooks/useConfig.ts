@@ -1,15 +1,29 @@
 import { useState } from "react";
+import { useMediaQuery } from "react-responsive";
 import configJson from "@config/config.json";
+import { normalizeCssSize } from "@/common/utils";
+
+interface Layout {
+  sidebar: {
+    width: number | string;
+  };
+  mainContent: {
+    padding: number | string;
+  };
+  navbar: {
+    height: number | string;
+    padding: number | string;
+  };
+}
 
 interface Config {
-  layout: {
-    sidebar: {
-      width: number | string;
-    };
-    mainContent: {
-      padding: number | string;
-    };
+  mediaQuery: {
+    mobile: number;
+    web: number;
   };
+  layout?: Layout;
+  "layout.web": Layout;
+  "layout.mobile": Layout;
   navbar: { name: string; href: string }[];
   sidebar: {
     title: string;
@@ -22,23 +36,29 @@ const template: Config = {
 
 const useConfig = (
   defaultConfig?: Config
-): [Config, React.Dispatch<React.SetStateAction<Config>>] => {
+): [
+  Required<Pick<Config, "layout">> & Config,
+  React.Dispatch<React.SetStateAction<Config>>
+] => {
   const [config, setConfig] = useState<Config>(
     defaultConfig ? defaultConfig : template
   );
 
-  // const update = (newConfig: Config) => {
-  //   setConfig((prevConfig) =>
-  //     prevConfig ? { ...prevConfig, ...newConfig } : (newConfig as Config)
-  //   );
-  // };
+  const isMobile = useMediaQuery({
+    query: `(max-width: ${normalizeCssSize(config.mediaQuery.mobile)})`,
+  });
+
+  const returnLayout = isMobile
+    ? config["layout.mobile"]
+    : config["layout.web"];
 
   return [
     {
-      layout: config.layout,
+      mediaQuery: config.mediaQuery,
+      layout: returnLayout,
       navbar: config.navbar,
       sidebar: config.sidebar,
-    } as Config,
+    } as Required<Pick<Config, "layout">> & Config,
     setConfig,
   ];
 };
