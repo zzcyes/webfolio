@@ -16,6 +16,8 @@ const SidebarMobile = ({ categories }: any) => {
     <SideBarContainerMobile
       className={`
       ${css`
+        top: ${normalizeCssSizeNumber(layout.navbar.height) +
+        normalizeCssSizeNumber(layout.mainContent.padding)}px;
         visibility: ${collapsed ? "hidden" : "visible"};
         left: ${layout.mainContent.padding}px;
         width: calc(

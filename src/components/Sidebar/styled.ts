@@ -26,7 +26,6 @@ export const SidebarContainer = styled.div`
 
 export const SideBarContainerMobile = styled.div`
   position: fixed;
-  top: 65px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
