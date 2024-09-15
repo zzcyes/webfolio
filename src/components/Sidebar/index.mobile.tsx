@@ -1,10 +1,14 @@
 import { css } from "@emotion/css";
-import { CategoryList } from "@/components";
 import { useConfig, useCollapsed } from "@/common/hooks";
 import { normalizeCssSizeNumber } from "@/common/utils";
-import { SideBarContainerMobile, SidebarContentMobile } from "./styled";
+import {
+  SideBarContainerMobile,
+  SidebarContentMobile,
+  CategoriesContainer,
+} from "./styled";
 import { useRecoilState } from "recoil";
 import { currCategoryIdState } from "@/store";
+import { CategoryBlock } from "@/components";
 
 const SidebarMobile = ({ categories }: any) => {
   const [collapsed, toggleCollapsed] = useCollapsed();
@@ -33,14 +37,23 @@ const SidebarMobile = ({ categories }: any) => {
       `}`}
     >
       <SidebarContentMobile>
-        <CategoryList
-          currCategoryId={currCategoryId}
-          list={categories}
-          onClick={(id) => {
-            setCurrCategoryId(id);
-            toggleCollapsed(true);
-          }}
-        />
+        <CategoriesContainer>
+          {categories.map((item) => (
+            <CategoryBlock
+              style={{
+                fontSize: 14,
+                padding: 10,
+              }}
+              key={item.id}
+              active={item.id === currCategoryId}
+              item={item}
+              onClick={(item) => {
+                setCurrCategoryId(item.id);
+                toggleCollapsed(true);
+              }}
+            />
+          ))}
+        </CategoriesContainer>
       </SidebarContentMobile>
     </SideBarContainerMobile>
   );

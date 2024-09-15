@@ -9,14 +9,16 @@ type ListItem = {
 };
 
 interface IProps {
+  style?: React.CSSProperties;
   active: boolean;
   item: ListItem;
   onClick?: (row: ListItem) => void;
 }
 
-const CategoryBlock: React.FC<IProps> = ({ active, item, onClick }) => {
+const CategoryBlock: React.FC<IProps> = ({ style, active, item, onClick }) => {
   return (
     <CategoryItem
+      style={style}
       className={active ? "active" : ""}
       key={item.id}
       onClick={() => onClick?.(item)}

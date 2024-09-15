@@ -1,10 +1,15 @@
-import { CategoryList } from "@/components";
 import { SidebarContainer } from "./styled";
 import { useConfig, useCollapsed } from "@/common/hooks";
 import { normalizeCssSize } from "@/common/utils";
-import { SidebarHeader, SidebarTitle, SidebarContent } from "./styled";
+import {
+  SidebarHeader,
+  SidebarTitle,
+  SidebarContent,
+  CategoriesContainer,
+} from "./styled";
 import { useRecoilState } from "recoil";
 import { currCategoryIdState } from "@/store";
+import { CategoryBlock } from "@/components";
 
 const SidebarWeb = ({ categories }: any) => {
   const [collapsed] = useCollapsed();
@@ -23,11 +28,18 @@ const SidebarWeb = ({ categories }: any) => {
         <SidebarTitle>{sidebar.title} </SidebarTitle>
       </SidebarHeader>
       <SidebarContent>
-        <CategoryList
-          currCategoryId={currCategoryId}
-          list={categories}
-          onClick={(id) => setCurrCategoryId(id)}
-        />
+        <CategoriesContainer>
+          {categories.map((item) => (
+            <CategoryBlock
+              key={item.id}
+              active={item.id === currCategoryId}
+              item={item}
+              onClick={(item) => {
+                setCurrCategoryId(item.id);
+              }}
+            />
+          ))}
+        </CategoriesContainer>
       </SidebarContent>
     </SidebarContainer>
   );

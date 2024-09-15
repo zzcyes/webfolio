@@ -71,3 +71,9 @@ export const SidebarContent = styled.div`
   padding: 20px;
   overflow-y: auto;
 `;
+
+export const CategoriesContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+`;
