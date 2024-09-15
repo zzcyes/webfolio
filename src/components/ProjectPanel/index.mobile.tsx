@@ -1,6 +1,6 @@
-import ProjectCard from "@/components/ProjectCard";
+import { ProjectCard } from "@/components";
 import { ProjectContainer, ProjectFlex, ProjectCardWrapper } from "./styled";
-import { IProjectItem } from "@/components/ProjectCard";
+import { IProjectItem } from "@/components/ProjectCard/type";
 
 const ProjectPanelMobile = ({ list }: { list: IProjectItem[] }) => {
   return (

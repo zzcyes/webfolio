@@ -5,8 +5,7 @@ import { projectsLoadingState } from "@/store";
 import { useRecoilValue } from "recoil";
 import { useConfig } from "@/common/hooks";
 import { useMediaQuery } from "react-responsive";
-
-import type { IProjectItem } from "@/components/ProjectCard";
+import type { IProjectItem } from "@/components/ProjectCard/type";
 
 const ProjectPanel = ({ list }: { list?: IProjectItem[] }) => {
   const [{ mediaQuery }] = useConfig();

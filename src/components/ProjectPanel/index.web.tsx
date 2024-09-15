@@ -1,5 +1,5 @@
-import ProjectCard from "@/components/ProjectCard";
-import type { IProjectItem } from "@/components/ProjectCard";
+import { ProjectCard } from "@/components";
+import type { IProjectItem } from "@/components/ProjectCard/type";
 import { PROJECT_CONTAINER_PADDING } from "./styled";
 import { ProjectContainer, ProjectGrid, ProjectCardWrapper } from "./styled";
 import { useConfig } from "@/common/hooks";

@@ -27,7 +27,7 @@ import {
 import { useMediaQuery } from "react-responsive";
 import { useConfig } from "@/common/hooks";
 
-const ProjectCardWeb: React.FC<IProjectCardProps> = ({ item: project }) => {
+const ProjectCard: React.FC<IProjectCardProps> = ({ item: project }) => {
   const { showToast } = useToast();
   const [{ mediaQuery }] = useConfig();
   const isWeb = useMediaQuery({ minWidth: mediaQuery.web });
@@ -159,4 +159,4 @@ const ProjectCardWeb: React.FC<IProjectCardProps> = ({ item: project }) => {
   );
 };
 
-export default ProjectCardWeb;
+export default ProjectCard;
