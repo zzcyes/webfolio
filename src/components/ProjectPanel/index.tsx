@@ -15,12 +15,16 @@ const ProjectPanel = ({ list }: { list?: IProjectItem[] }) => {
 
   const isWeb = useMediaQuery({ minWidth: mediaQuery.web });
 
+  const messageBlockStyle = isWeb ? {} : { paddingLeft: 10, fontSize: 14 };
+
   return (
     <>
       {loading ? (
-        <MessageBlock>Loading...</MessageBlock>
+        <MessageBlock style={messageBlockStyle}>Loading...</MessageBlock>
       ) : hasNoProjects ? (
-        <MessageBlock>No projects found.</MessageBlock>
+        <MessageBlock style={messageBlockStyle}>
+          No projects found.
+        </MessageBlock>
       ) : isWeb ? (
         <ProjectPanelWeb list={list || []} />
       ) : (
