@@ -10,6 +10,9 @@
     "mainContent": {
       "padding": 20
     },
+    "contentSection": {
+      "padding": "20px 0px"
+    },
     "navbar": {
       "height": 65,
       "padding": 20
@@ -21,6 +24,9 @@
     },
     "mainContent": {
       "padding": 20
+    },
+    "contentSection": {
+      "padding": "10px 0px"
     },
     "navbar": {
       "height": 39,

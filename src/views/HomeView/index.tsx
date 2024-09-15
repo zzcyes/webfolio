@@ -87,7 +87,11 @@ const HomeViews: React.FC = () => {
       >
         <MainContentCard>
           <Navbar />
-          <ContentSection>
+          <ContentSection
+            className={css`
+              padding: ${layout.contentSection.padding};
+            `}
+          >
             <ProjectPanel list={projects} />
           </ContentSection>
         </MainContentCard>

@@ -43,7 +43,6 @@ export const ContentSection = styled.div`
   align-items: center;
   width: 100%;
   height: 100%;
-  padding: 20px 0px;
   overflow-y: auto;
   scrollbar-gutter: stable; // 保留滚动条的位置
 `;

@@ -10,6 +10,9 @@ interface Layout {
   mainContent: {
     padding: number | string;
   };
+  contentSection: {
+    padding: number | string;
+  };
   navbar: {
     height: number | string;
     padding: number | string;
