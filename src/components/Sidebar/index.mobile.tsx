@@ -11,8 +11,8 @@ import { currCategoryIdState } from "@/store";
 import { CategoryBlock } from "@/components";
 
 const SidebarMobile = ({ categories }: any) => {
-  const [collapsed, toggleCollapsed] = useCollapsed();
   const [{ layout }] = useConfig();
+  const [expanded, toggleExpanded] = useCollapsed();
   const [currCategoryId, setCurrCategoryId] =
     useRecoilState(currCategoryIdState);
 
@@ -20,20 +20,20 @@ const SidebarMobile = ({ categories }: any) => {
     <SideBarContainerMobile
       className={`
       ${css`
+        visibility: ${expanded ? "visible" : "hidden"};
         top: ${normalizeCssSizeNumber(layout.navbar.height) +
         normalizeCssSizeNumber(layout.mainContent.padding)}px;
-        visibility: ${collapsed ? "hidden" : "visible"};
         left: ${layout.mainContent.padding}px;
         width: calc(
           100% - ${normalizeCssSizeNumber(layout.mainContent.padding) * 2}px
         );
-        height: ${collapsed
-          ? "0px"
-          : `calc(
+        height: ${expanded
+          ? `calc(
           100vh -
             ${normalizeCssSizeNumber(layout.mainContent.padding) * 2}px -
             ${normalizeCssSizeNumber(layout.navbar.height)}px
-        )`};
+        )`
+          : "0px"};
       `}`}
     >
       <SidebarContentMobile>
@@ -49,7 +49,7 @@ const SidebarMobile = ({ categories }: any) => {
               item={item}
               onClick={(item) => {
                 setCurrCategoryId(item.id);
-                toggleCollapsed(true);
+                toggleExpanded(false);
               }}
             />
           ))}

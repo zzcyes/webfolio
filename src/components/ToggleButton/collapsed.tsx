@@ -14,12 +14,14 @@ const CollapsedToggleButton = ({
   collapsed: boolean;
   onToggle: () => void;
 }) => {
-  const [collapsedIcon, expandedIcon] = reverse ? FaIcons.reverse() : FaIcons;
+  const icons: [React.ReactNode, React.ReactNode] = reverse
+    ? [<FaTimes />, <FaBars />]
+    : [<FaBars />, <FaTimes />];
 
   return (
     <ToggleButton
       style={style}
-      icons={[collapsedIcon, expandedIcon]}
+      icons={icons}
       active={collapsed}
       onToggle={onToggle}
     />
